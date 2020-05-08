@@ -11,7 +11,7 @@ I will be using this one for Windows:
 
 Or for additional platforms you can try any of these, the process is similar:
 
-[GnuPG Downloads](ghttps://www.gnupg.org/download/)
+[GnuPG Downloads](https://www.gnupg.org/download/)
 
 ## Generate the signing key
 
