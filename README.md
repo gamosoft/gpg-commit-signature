@@ -138,6 +138,14 @@ Now, make sure you refer to the correct gpg tool to sign (the one we just instal
 git config --global gpg.program "c:/Program Files (x86)/GnuPG/bin/gpg.exe"
 ```
 
+## Configure GIT clients
+
+The process so far contemplates the use of command line GIT, but if you're using a graphical client then please make sure it uses the underlying GIT installation (not a custom one) and the email address is configured correctly:
+
+![Git client configuration](git_client_config.png)
+
+In order to be able to sign these commits you will probably need to enable per-repo or global auto signatures, please see next section. (_I have not tested this but should work_)
+
 ## Signing commits
 
 Congratulations, if you're here you should be able to sign your commits! 😎
