@@ -71,7 +71,7 @@ The process will also generate a revocation key under the following directory if
 
 ### Verified email address
 
-It's worth noting that of course you need to have verified your email address in order to be able to use it, so in the case of a real email address by looking at the email that gets sent for confirmation, and for the _noreply_ accounts since they're not **real** ones, then there's no way to spoof them: ¯\\_(ツ)_/¯ 
+It's worth noting that of course you need to have verified your email address in order to be able to use it, so in the case of a real email address by looking at the email that gets sent for confirmation, and for the _noreply_ accounts since they're not **real** ones, then there's no way to spoof them: ¯\\\_(ツ)\_/¯ 
 
 ![Unverified email address](unverified_email_address.png)
 
