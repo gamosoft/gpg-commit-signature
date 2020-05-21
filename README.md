@@ -3,6 +3,19 @@
 The following document describes how to use a GPG signing key to sign individual commits and make them verifiable in Github. It's not the scope of this document to describe how public/private key pairs work, there are plenty of resources for that everywhere, but suffice it to say we'll be signing commits with a private key (which cannot be shared with anyone).
 Then, we'll give away our public key so those privately signed elements can be verified by others, and they'll know we were the ones who signed them. 👍
 
+# Table of Contents
+* [Install GPG software](#install-gpg-software)
+* [Generate the signing key](#generate-the-signing-key)
+    * [Choosing the signing email address](#choosing-the-signing-email-address)
+    * [Verified email address](#verified-email-address)
+* [Export the public key](#export-the-public-key)
+* [Import the key into Github](#import-the-key-into-github)
+* [Using your key in other computer](#using-your-key-in-other-computer)
+* [Configure GIT in the signing computer](#configure-git-in-the-signing-computer)
+* [Configure GIT clients](#configure-git-clients)
+* [Signing commits](#signing-commits)
+* [Signing tags](#signing-tags)
+
 ## Install GPG software
 
 I will be using this one for Windows:
@@ -55,6 +68,12 @@ Otherwise just use the real one: 🤷🏽‍♂️
 The process will also generate a revocation key under the following directory if running Windows:
 
 > C:/Users/_username_/AppData/Roaming/gnupg/openpgp-revocs.d/_identifier__.rev
+
+### Verified email address
+
+It's worth noting that of course you need to have verified your email address in order to be able to use it, so in the case of a real email address by looking at the email that gets sent for confirmation, and for the _noreply_ accounts since they're not **real** ones, then there's no way to spoof them: ¯\\_(ツ)_/¯ 
+
+![Unverified email address](unverified_email_address.png)
 
 ## Export the public key
 
